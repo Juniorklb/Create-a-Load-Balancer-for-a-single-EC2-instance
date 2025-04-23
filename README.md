@@ -1,1 +1,1 @@
-# Create-a-Load-Balancer-for-a-single-EC2-instance
+# Load-Balancer-for-a-single-EC2-instance
