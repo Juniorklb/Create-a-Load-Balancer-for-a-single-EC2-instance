@@ -134,3 +134,5 @@ Scroll to Advanced Details and paste this script into User data:
 - Click Include as pending below
 
 - Click Create target group
+
+## Step 3: Create the Application Load Balancer (ALB)
