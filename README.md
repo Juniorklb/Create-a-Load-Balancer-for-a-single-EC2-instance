@@ -99,7 +99,6 @@ Scroll to Advanced Details and paste this script into User data:
 
 #### 🔧 How to Create a Target Group in the Console
 
-<img align="right" alt="Coding" width="700"  src="https://github.com/Juniorklb/Create-a-Load-Balancer-for-a-single-EC2-instance/blob/8f683b6763c019ed4a8c173d0b541d21e1872905/Images/EC2-WEB-TG%201.PNG">
  
 - Go to the EC2 Dashboard
 
@@ -126,7 +125,9 @@ Scroll to Advanced Details and paste this script into User data:
 - Path: /
 
    - Click Next
- 
+     
+ ![img alt](https://github.com/Juniorklb/Create-a-Load-Balancer-for-a-single-EC2-instance/blob/8f683b6763c019ed4a8c173d0b541d21e1872905/Images/EC2-WEB-TG%201.PNG)
+
 ####  Register Targets
 
 - Select your EC2 instance
@@ -138,7 +139,9 @@ Scroll to Advanced Details and paste this script into User data:
 ## Step 3: Create the Application Load Balancer (ALB)
 
     This will distribute traffic (even if it’s just one instance for now) and allow you to scale in the future.
-    
+
+![image alt](https://github.com/Juniorklb/Create-a-Load-Balancer-for-a-single-EC2-instance/blob/a01ab23b4ee675a916cd475e79592f500c2f27be/Images/APPloadbalancer.PNG)
+
 #### 🧭 How to Create an ALB in the Console
 
 - Go to EC2 Dashboard
@@ -151,7 +154,7 @@ Scroll to Advanced Details and paste this script into User data:
 
 #### ⚙️ Step-by-Step ALB Setup
 ##### Basic Configuration
-<image align="right" alt="coding" width="700" src="https://github.com/Juniorklb/Create-a-Load-Balancer-for-a-single-EC2-instance/blob/a01ab23b4ee675a916cd475e79592f500c2f27be/Images/APPloadbalancer.PNG">
+
 - Name: WebApp-ALB
 
 - Scheme: Internet-facing
