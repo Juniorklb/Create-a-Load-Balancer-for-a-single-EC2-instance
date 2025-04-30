@@ -98,6 +98,8 @@ Scroll to Advanced Details and paste this script into User data:
 ## Step 2: Create a Target Group
 
 #### 🔧 How to Create a Target Group in the Console
+
+<img align="right" alt="Coding" width="400" src="https://github.com/Juniorklb/Juniorklb/blob/662692f737cc8f550da799d48190446b55a68900/Working%20hard.jpeg">
  
 - Go to the EC2 Dashboard
 
