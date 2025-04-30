@@ -74,3 +74,22 @@ Scroll to Advanced Details and paste this script into User data:
 
  This installs Apache and creates a basic web page.   
 
+#### Launch
+- Click Launch Instance
+
+- Wait for status: Running
+
+#### Test the Web Server
+
+- Go to the EC2 Instance details
+
+- Copy the Public IPv4 address
+
+- Paste it in your browser:
+  
+          http://<your-ec2-ip>
+
+- You should see:
+  
+      Hello from EC2 behind a Load Balancer!
+
