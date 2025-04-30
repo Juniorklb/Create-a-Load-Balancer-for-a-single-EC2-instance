@@ -198,7 +198,7 @@ Scroll to Advanced Details and paste this script into User data:
 - You should see:
   
       Hello from EC2 behind a Load Balancer!
-
+![image alt](https://github.com/Juniorklb/Create-a-Load-Balancer-for-a-single-EC2-instance/blob/d64548ec9f3da500d2e5e86fd5d4cc8ba2b77125/Images/ALBloadbalancer.PNG)
 ## Quick Troubleshooting Checklist
 
 #### Is the Load Balancer in the "Active" state?
