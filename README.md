@@ -136,3 +136,46 @@ Scroll to Advanced Details and paste this script into User data:
 - Click Create target group
 
 ## Step 3: Create the Application Load Balancer (ALB)
+
+    This will distribute traffic (even if it’s just one instance for now) and allow you to scale in the future.
+    
+#### 🧭 How to Create an ALB in the Console
+
+- Go to EC2 Dashboard
+
+- In the left menu, click Load Balancers
+
+- Click Create Load Balancer
+
+- Choose Application Load Balancer (NOT Network Load Balancer)
+
+#### ⚙️ Step-by-Step ALB Setup
+##### Basic Configuration
+
+- Name: WebApp-ALB
+
+- Scheme: Internet-facing
+
+- IP address type: IPv4
+
+##### Network Mapping
+
+- VPC: Same as your EC2
+
+- Availability Zones:
+
+   - Select at least one AZ with your instance in it
+
+   - Tick the subnet of your EC2
+ 
+##### Listeners and Routing
+- Listener: HTTP : 80
+
+- Default action: Choose Forward to → Select your Target Group (EC2-Web-TG)
+
+####  Security Groups
+
+- Choose an existing SG OR
+
+- Create a new Security Group that allows inbound HTTP (port 80)
+
