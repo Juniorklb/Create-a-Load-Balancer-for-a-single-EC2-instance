@@ -36,3 +36,15 @@ This project demonstrates how to set up an AWS Application Load Balancer (ALB) i
 - [x] EC2 Setup
 - [x] ALB Configured
 - [ ] Terraform version (optional)
+
+## Step 1: Launch an EC2 Instance (Web Server)
+####  Go to EC2 Dashboard
+- Open the AWS Management Console
+
+- Search for EC2
+
+- Click Launch Instance
+
+
+  
+#### Configure Instance
