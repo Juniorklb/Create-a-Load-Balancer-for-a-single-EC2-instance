@@ -45,6 +45,32 @@ This project demonstrates how to set up an AWS Application Load Balancer (ALB) i
 
 - Click Launch Instance
 
-![image alt](https://github.com/Juniorklb/Create-a-Load-Balancer-for-a-single-EC2-instance/blob/eb2bae4e8162ef64ac666fa1d84421168c64040e/Images/EC2.PNG)
-  
-#### Configure Instance
+![image alt](https://github.com/Juniorklb/Create-a-Load-Balancer-for-a-single-EC2-instance/blob/eb2bae4e8162ef64ac666fa1d84421168c64040e/Images/EC2.PNG) 
+####  Configure Instance
+Name: WebServer-Instance
+
+- AMI: Amazon Linux 2
+
+- Instance Type: t2.micro (free tier eligible)
+
+- Key pair: Create new or choose existing (you’ll need this to SSH)
+
+- Network settings:
+    - Allow SSH (port 22) and HTTP (port 80)
+
+    - Optional: You can also allow HTTPS (port 443)
+
+
+#### User Data (Advanced Details)      
+
+Scroll to Advanced Details and paste this script into User data:
+
+    #!/bin/bash
+    yum update -y
+    yum install -y httpd
+    systemctl start httpd
+    systemctl enable httpd
+    echo "<h1>Hello from EC2 behind a Load Balancer!</h1>" > /var/www/html/index.html
+
+ This installs Apache and creates a basic web page.   
+
