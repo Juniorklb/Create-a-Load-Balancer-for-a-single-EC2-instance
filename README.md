@@ -245,3 +245,13 @@ Look at the Health Status
 - Go to Target Group → Health Checks
 
 - Make sure the path is set to /, not something like /health unless you configured it
+
+## 📌 Conclusion
+
+- This setup demonstrates how to expose a web application using an AWS ALB even with a single backend instance. It's a solid base for future enhancements like:
+
+- HTTPS with AWS Certificate Manager
+
+- Auto Scaling groups
+
+- CloudWatch monitoring and logging
