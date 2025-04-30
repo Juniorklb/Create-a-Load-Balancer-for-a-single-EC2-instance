@@ -24,7 +24,7 @@ This project demonstrates how to set up an AWS Application Load Balancer (ALB) i
 
 ## 📸 Output
 
-![ALB Test](screenshots/alb-test.png)
+![image alt](https://github.com/Juniorklb/Create-a-Load-Balancer-for-a-single-EC2-instance/blob/d64548ec9f3da500d2e5e86fd5d4cc8ba2b77125/Images/ALBloadbalancer.PNG)
 
 ## 📂 Folder Structure
 
