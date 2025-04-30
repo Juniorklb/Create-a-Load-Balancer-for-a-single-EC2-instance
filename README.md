@@ -151,7 +151,7 @@ Scroll to Advanced Details and paste this script into User data:
 
 #### ⚙️ Step-by-Step ALB Setup
 ##### Basic Configuration
-
+<image align="right" alt="coding" width="700" src="">
 - Name: WebApp-ALB
 
 - Scheme: Internet-facing
