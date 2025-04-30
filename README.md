@@ -45,6 +45,6 @@ This project demonstrates how to set up an AWS Application Load Balancer (ALB) i
 
 - Click Launch Instance
 
-
+![image alt](https://github.com/Juniorklb/Create-a-Load-Balancer-for-a-single-EC2-instance/blob/eb2bae4e8162ef64ac666fa1d84421168c64040e/Images/EC2.PNG)
   
 #### Configure Instance
