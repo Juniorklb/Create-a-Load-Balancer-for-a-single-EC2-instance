@@ -178,4 +178,24 @@ Scroll to Advanced Details and paste this script into User data:
 - Choose an existing SG OR
 
 - Create a new Security Group that allows inbound HTTP (port 80)
+ 
+#### Review and Create
+
+- Click Create load balancer
+
+- Wait until the State becomes Active (refresh if needed)
+
+#### Test the Load Balancer
+
+- Go to Load Balancers → Click your ALB
+
+- Copy the DNS name
+
+- Paste in your browser:
+  
+      http://<your-load-balancer-DNS-name>
+
+- You should see:
+  
+      Hello from EC2 behind a Load Balancer!
 
