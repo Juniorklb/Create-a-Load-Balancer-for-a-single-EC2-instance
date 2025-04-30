@@ -93,3 +93,6 @@ Scroll to Advanced Details and paste this script into User data:
   
       Hello from EC2 behind a Load Balancer!
 
+  ![image alt](https://github.com/Juniorklb/Create-a-Load-Balancer-for-a-single-EC2-instance/blob/eefdad2dac97488ba1e8a6c5e2e98a07d308ef52/Images/ALBhello.PNG)
+
+## Step 2: Create a Target Group
