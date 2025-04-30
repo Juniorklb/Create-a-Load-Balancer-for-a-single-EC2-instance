@@ -96,3 +96,39 @@ Scroll to Advanced Details and paste this script into User data:
   ![image alt](https://github.com/Juniorklb/Create-a-Load-Balancer-for-a-single-EC2-instance/blob/eefdad2dac97488ba1e8a6c5e2e98a07d308ef52/Images/ALBhello.PNG)
 
 ## Step 2: Create a Target Group
+
+#### 🔧 How to Create a Target Group in the Console
+ 
+- Go to the EC2 Dashboard
+
+- In the left menu, scroll down and click Target Groups
+
+- Click Create target group
+
+####  🔧 Target Group Settings
+
+- Target type: Instances
+
+- Name: EC2-Web-TG
+
+- Protocol: HTTP
+
+- Port: 80
+
+- VPC: Select the one your EC2 is in
+
+- Health checks:
+
+- Protocol: HTTP
+
+- Path: /
+
+   - Click Next
+ 
+####  Register Targets
+
+- Select your EC2 instance
+
+- Click Include as pending below
+
+- Click Create target group
