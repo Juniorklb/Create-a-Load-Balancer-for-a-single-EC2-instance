@@ -99,7 +99,7 @@ Scroll to Advanced Details and paste this script into User data:
 
 #### 🔧 How to Create a Target Group in the Console
 
-<img align="right" alt="Coding" width="700"  src="https://github.com/Juniorklb/Create-a-Load-Balancer-for-a-single-EC2-instance/blob/0a5e15dcef9c1d5098907dfe8e33afe794a2ca1c/Images/EC2-Web-TG.PNG">
+<img align="right" alt="Coding" width="700"  src="https://github.com/Juniorklb/Create-a-Load-Balancer-for-a-single-EC2-instance/blob/8f683b6763c019ed4a8c173d0b541d21e1872905/Images/EC2-WEB-TG%201.PNG">
  
 - Go to the EC2 Dashboard
 
