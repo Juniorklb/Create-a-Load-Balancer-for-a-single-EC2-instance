@@ -151,7 +151,7 @@ Scroll to Advanced Details and paste this script into User data:
 
 #### ⚙️ Step-by-Step ALB Setup
 ##### Basic Configuration
-<image align="right" alt="coding" width="700" src="">
+<image align="right" alt="coding" width="700" src="https://github.com/Juniorklb/Create-a-Load-Balancer-for-a-single-EC2-instance/blob/a01ab23b4ee675a916cd475e79592f500c2f27be/Images/APPloadbalancer.PNG">
 - Name: WebApp-ALB
 
 - Scheme: Internet-facing
