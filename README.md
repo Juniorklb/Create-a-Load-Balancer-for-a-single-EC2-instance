@@ -199,3 +199,49 @@ Scroll to Advanced Details and paste this script into User data:
   
       Hello from EC2 behind a Load Balancer!
 
+## Quick Troubleshooting Checklist
+
+#### Is the Load Balancer in the "Active" state?
+- Go to EC2 → Load Balancers
+
+Check the State — it should say active.
+
+#### Is your EC2 instance showing as “healthy” in the Target Group?
+- Go to Target Groups → click your group (EC2-Web-TG)
+
+Click the Targets tab
+
+Look at the Health Status
+
+- Should be healthy
+
+    - ❌ If unhealthy, that’s the issue. Fix is in Step 4 below.
+
+#### Is port 80 open in the EC2’s Security Group?
+  
+- Go to EC2 → click your instance → scroll down to Security groups
+
+- Click the group → check Inbound rules
+
+- You should see HTTP (port 80) allowed from 0.0.0.0/0
+  
+#### 4. Did the EC2 instance install the web server properly?
+- Try connecting via SSH:
+  
+      ssh -i your-key.pem ec2-user@your-ec2-public-ip
+- Then run:
+
+      curl localhost
+- If you don’t see the Hello from EC2... message, then the Apache server didn’t install or start.
+
+- Run this to fix:
+
+      sudo yum install -y httpd
+      sudo systemctl start httpd
+      sudo systemctl enable httpd
+      echo "<h1>Hello from EC2 behind a Load Balancer!</h1>" | sudo tee /var/www/html/index.html
+#### Health Check Path
+
+- Go to Target Group → Health Checks
+
+- Make sure the path is set to /, not something like /health unless you configured it
