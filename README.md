@@ -32,7 +32,7 @@ This project demonstrates how to set up an AWS Application Load Balancer (ALB) i
 - `terraform/`: optional infrastructure-as-code
 - `screenshots/`: images of test results
 
-## ✅ Status
+## Status
 - [x] EC2 Setup
 - [x] ALB Configured
 - [ ] Terraform version (optional)
